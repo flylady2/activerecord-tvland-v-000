@@ -9,12 +9,12 @@ class Actor < ActiveRecord::Base
 
   end
 
-  def list_roles
+  #def list_roles
     #binding.pry
-    self.characters.map do |character|
-      "#{character.name} - #{character.show.name}"
-    end
-  end
+    #self.characters.map do |character|
+    #  "#{character.name} - #{character.show.name}"
+    #end
+#  end
 
 
 
